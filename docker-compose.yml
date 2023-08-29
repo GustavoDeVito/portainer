@@ -2,6 +2,6 @@ version: '3'
 
 services:
   nginx:
-    image: nginx:latest
+    image: nginx:alpine-slim
     enviroment:
       - FOO=$FOO
